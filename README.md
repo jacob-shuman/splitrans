@@ -1,6 +1,10 @@
-# smol-cli
+# splitrans
 
 > A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg
+
+<!-- Badges -->
+
+[![license badge](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&labelColor=blue)](https://github.com/jacob-shuman/splitrans/blob/main/LICENSE)
 
 ## Why?
 
@@ -33,17 +37,6 @@ npm i
 ### Compiling binaries
 
 [`pkg`](https://github.com/vercel/pkg) is used to create binaries for all major platforms. The `package` script will create binaries for windows, macos, and linux from the `./dist/out.cjs` bundle.
-
-## Replace template variables
-
-Before working on this template replace the following templated variables globally:
-
-```
-YOUR_NAME (author's name)
-YOUR_EMAIL (author's email)
-GITHUB_USERNAME (github username)
-smol-cli (package name)
-```
 
 ## Scripts
 

@@ -1,15 +1,15 @@
 {
-  "name": "smol-cli",
+  "name": "splitrans",
   "description": "A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg",
   "version": "0.0.0",
   "type": "module",
   "bin": {
-    "smol-cli": "dist/out.cjs"
+    "splitrans": "dist/out.cjs"
   },
   "scripts": {
     "compile": "esbuild ./src/index.ts --bundle --minify --platform=node --target=node18 --outfile=dist/out.cjs",
     "watch": "npm run compile -- --watch",
-    "package": "pkg dist/out.cjs --targets win,macos,linux --output dist/smol-cli"
+    "package": "pkg dist/out.cjs --targets win,macos,linux --output dist/splitrans"
   },
   "devDependencies": {
     "esbuild": "^0.19.4",
@@ -19,7 +19,14 @@
   "dependencies": {
     "zx": "^7.2.3"
   },
-  "author": "YOUR_NAME <YOUR_EMAIL>",
+  "author": "Jacob Shuman <44483276+jacob-shuman@users.noreply.github.com>",
+  "funding": "https://github.com/sponsors/jacob-shuman",
+  "homepage": "https://github.com/jacob-shuman/splitrans#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-shuman/splitrans.git"
+  },
+  "bugs": "https://github.com/jacob-shuman/splitrans/issues",
   "license": "MIT",
   "keywords": [
     "smol",
