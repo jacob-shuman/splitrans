@@ -1,10 +1,10 @@
 # splitrans
 
-> A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg
-
 <!-- Badges -->
 
 [![license badge](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&labelColor=blue)](https://github.com/jacob-shuman/splitrans/blob/main/LICENSE)
+
+> A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg
 
 ## Why?
 
